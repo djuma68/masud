@@ -1,0 +1,224 @@
+# === OS-Specific ===
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# === IDEs and Editors ===
+
+# VS Code
+.vscode/
+
+# JetBrains (IntelliJ, PyCharm, WebStorm, etc.)
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.c9/
+.settings/
+
+# Sublime
+*.sublime-workspace
+*.sublime-project
+
+# === Programming Languages and Tools ===
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+pnpm-lock.yaml
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pypirc
+.Python
+.env
+.venv/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.log
+hs_err_pid*
+.recommenders/
+
+# Go
+/bin/
+/pkg/
+*.exe
+*.test
+*.out
+
+# Rust
+/target/
+**/*.rs.bk
+
+# PHP
+/vendor/
+*.log
+
+# Ruby
+*.gem
+*.rbc
+.bundle/
+/vendor/bundle/
+/log/
+/tmp/
+
+# .NET
+bin/
+obj/
+*.user
+*.suo
+*.pdb
+*.cache
+*.mdb
+*.ilk
+*.log
+
+# C++
+*.obj
+*.o
+*.gch
+*.pch
+*.exe
+*.out
+*.app
+*.log
+
+# === Frameworks ===
+
+# React / Next.js / Vite
+build/
+dist/
+out/
+.cache/
+.next/
+.nitro/
+.nuxt/
+
+# Angular
+.angular/
+dist/
+tmp/
+
+# Vue
+node_modules/
+dist/
+*.local
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+media
+staticfiles
+
+# Laravel
+/vendor/
+/node_modules/
+.env
+.phpunit.result.cache
+storage/*.key
+storage/framework/cache/*
+storage/logs/*
+
+# Flutter
+.dart_tool/
+.flutter-plugins
+.packages
+.pub-cache/
+build/
+*.iml
+
+# Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+
+# === Miscellaneous ===
+
+# Logs
+*.log
+log/
+logs/
+
+# Compiled source
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.pyc
+*.pyo
+
+# Package distribution
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Backup and temporary files
+*.bak
+*.swp
+*~
+*.tmp
+*.temp
+*.old
+*.orig
+
+# Sensitive Files
+*.pem
+*.key
+*.crt
+*.p12
+*.jks
+
+# Others
+coverage/
+coverage-final.json
+.nyc_output/
+.npm/
+.cache/
+.eslintcache
+.stylelintcache
+.parcel-cache/
